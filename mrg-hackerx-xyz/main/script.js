@@ -203,7 +203,7 @@ const urlParams = new URLSearchParams(queryString);
 const likes = urlParams.get('likes')
 
 function logintoacc() {
-	window.location.href = "https://twentyonecore.com/newlogin/?twentyonecorelogin=xsite"
+	window.location.href = "https://twentyonecore.evoxs.xyz/newlogin/?twentyonecorelogin=xsite"
 }
 var profilepicture = sessionStorage.getItem("pfp");
 document.getElementById("pfp").src = profilepicture;
