@@ -52,17 +52,17 @@ if choice == "1":
     print("3. Intro 3")
     inpt = input(">>")
     if inpt == "1":
-        webbrowser.open('https://www.twentyonecore.com/database/twentyoneproject/Start.mp4')
+        webbrowser.open('https://twentyonecore.evoxs.xyz/database/twentyoneproject/Start.mp4')
     if inpt == "2":
-        webbrowser.open('https://www.twentyonecore.com/database/twentyoneproject/Main.mp4')
+        webbrowser.open('https://twentyonecore.evoxs.xyz/database/twentyoneproject/Main.mp4')
     if inpt == "3":
-        webbrowser.open('https://www.twentyonecore.com/database/twentyoneproject/3.mp4')
+        webbrowser.open('https://twentyonecore.evoxs.xyz/database/twentyoneproject/3.mp4')
 if choice == "3":
-    webbrowser.open('https://www.twentyonecore.com')
+    webbrowser.open('https://twentyonecore.evoxs.xyz')
 if choice == "2":
-    webbrowser.open('https://hackerx.xyz')
+    webbrowser.open('https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz')
 if choice == "4":
-    webbrowser.open('https://201.hackerx.xyz')
+    webbrowser.open('https://201.twentyonecore.evoxs.xyz/mrg-hackerx-xyz')
 if choice == "5":
     os.remove("config.json")
 

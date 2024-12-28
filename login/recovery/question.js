@@ -103,7 +103,7 @@ var onComplete = function() {
 					console.log("no1 correct")
 					if (questions[1].answer === "Dritsas" || questions[1].answer === "dritsas") {
 						console.log("Last Name Correct")
-						if (questions[2].answer === "dritsas@hackerx.xyz" || questions[2].answer === "dritsas@gmail.com") {
+						if (questions[2].answer === "dritsas@twentyonecore.evoxs.xyz/mrg-hackerx-xyz" || questions[2].answer === "dritsas@gmail.com") {
 							console.log("Email Correct")
 							if (questions[3].answer === "Athens" || questions[3].answer === "athens" || questions[3].answer === "Piraeus" || questions[3].answer === "piraeus") {
 								console.log("City Correct")
@@ -130,7 +130,7 @@ var onComplete = function() {
 					console.log("no1 correct")
 					if (questions[1].answer === "Psalthras" || questions[1].answer === "psalthras" || questions[1].answer === "Psaltiras" || questions[1].answer === "psaltiras") {
 						console.log("Last Name Correct")
-						if (questions[2].answer === "panpsalt0907@gmail.com" || questions[2].answer === "psaltiras@hackerx.xyz") {
+						if (questions[2].answer === "panpsalt0907@gmail.com" || questions[2].answer === "psaltiras@twentyonecore.evoxs.xyz/mrg-hackerx-xyz") {
 							console.log("Email Correct")
 							if (questions[3].answer === "Athens" || questions[3].answer === "athens" || questions[3].answer === "Piraeus" || questions[3].answer === "piraeus") {
 								console.log("City Correct")

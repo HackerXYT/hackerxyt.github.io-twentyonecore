@@ -1,0 +1,46 @@
+<section class="blog-modal-section">
+  <div class="blog-modal-container">
+    <div class="blog-modal-content">
+      <h2>My blogs</h2>
+      <ul>
+        <li>
+          <a href="#">Blog 1 - Coming Soon</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<style>
+	.blog-modal-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.blog-modal-container {
+  height: 40%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+	.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+}
+</style>
