@@ -1,0 +1,62 @@
+<h2 id="username">unauthorized</h2>
+<h2>Requesting A Copy Of Index For Your Account</h2>
+<p>Changes: added admin privileges</p>
+<h4 id="countdown">null</h4>
+<style>
+ body {background-color: black;}
+		@font-face {
+  font-family: Font;
+  src: url(font.otf);
+}
+
+a:link , a:visited {
+            text-decoration: none;
+						color: inherit;
+        }
+a:hover {
+            color: red
+        }
+
+		.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+		
+p {
+  font-family: Font;
+	color: white;
+}
+		h2 {
+  font-family: Font;
+	color: #FFFFFF;
+}
+		h4 {
+  font-family: Font;
+	color: #FFFFFF;
+}
+		i {
+  font-family: Font;
+	color: #808080;
+}
+		block {
+    cursor: not-allowed;  
+}
+	</style>
+ <script>
+	 var x = sessionStorage.getItem("identity");
+document.getElementById("username").innerHTML = "Welcome, " + x + "!";
+	 var timeleft = 5;
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+    document.getElementById("countdown").innerHTML = "New File on /main/";
+		window.location.href = "/main/server43.html";
+  } else {
+    document.getElementById("countdown").innerHTML = "Please Wait " + timeleft + " seconds";
+  }
+  timeleft -= 1;
+}, 1000);
+ </script>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Success!</title>
+	<link rel="icon" href="https://twentyonecore.evoxs.xyz/database/hackerxlogo.png">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="app">
+    <h3 class="center" onload="timer(10)">Success!<br>Your Message Has Been Delivered Successfully!<br>We'll contact you shortly<br>Redirecting: <span id="time">Loading...</span></h3>
+</div>
+
+<!-- partial -->
+  <script src="	https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+      var time = 5 * 2;
+    setInterval(function() {
+      var seconds = time % 60;
+      var minutes = (time - seconds) / 60;
+      if (seconds.toString().length == 1) {
+        seconds = "0" + seconds;
+      }
+      if (minutes.toString().length == 1) {
+        minutes = "0" + minutes;
+      }
+      document.getElementById("time").innerHTML = minutes + ":" + seconds;
+      time--;
+      if (time == 0) {
+        window.location.href = "/main/";
+      }
+    }, 1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>HackerX Site</title>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">	</head>
+	<link rel="icon" href="https://twentyonecore.evoxs.xyz/database/hackerxlogo.png">
+	<body>
+		<iframe id="iframe" style="visibility: hidden" src="./main/index.html"
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0" 
+            width="100%" 
+            height="100%" 
+            scrolling="auto">
+  </iframe>
+	</body>
+</html>
+<script>
+	//document.getElementById('iframe').src = "/wait/"
+	//document.title = "Coming Soon..";
+  setTimeout(function () {
+                //document.getElementById('iframe').src = "./main/index.html"
+		document.title = "HackerX Site";
+            }, 1900);
+	document.title = "HackerX Site";
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const product = urlParams.get('server')
+	if (localStorage.identity === "banneduser" && localStorage.banned === "true") {
+		const ip = localStorage.getItem("storageip")
+		alert("You have been IP banned from HackerX's Servers")
+		window.location.href = "./contact/"
+	} else if (product === "private") { 
+		document.getElementById("iframe").src = 'https://twentyonecore.evoxs.xyz/NAL21';
+		document.getElementById("iframe").style.visibility = "visible"
+	}  else { 
+		if ("identity" in sessionStorage) {
+			sessionStorage.pfp = "https://twentyonecore.evoxs.xyz/database/user.jpg";
+    	console.log("Connected To Server!")
+			console.log("loading..")
+			document.getElementById("iframe").style.visibility = "visible"
+		}
+		else {
+			sessionStorage.pfp = "https://twentyonecore.evoxs.xyz/database/user.jpg";
+			console.log("Creating Guest Account..")
+			console.log("Connected To Server!")
+			console.log("loading..")
+    	sessionStorage.identity = "user";
+			document.getElementById("iframe").style.visibility = "visible"
+		}
+	//window.location.href = "/main/";
+	}
+</script>
+<style>
+	html {
+            overflow: auto;
+        }
+		html,
+    body,
+    div,
+		iframe {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            border: none;
+        }
+          
+        iframe {
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+	html {
+  cursor: url('/main/Cursors/cursor.png'), default;
+}
+
+</style>

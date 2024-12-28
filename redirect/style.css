@@ -1,0 +1,78 @@
+button {
+  position: relative;
+  text-transform: uppercase;
+  border: 2px solid black;
+  padding: 0.75em 1.5em;
+  border-radius: 1.5em;
+  transition: transform 240ms linear;
+  z-index: 1;
+  overflow: hidden;
+  background-color: white;
+}
+
+button::before,
+button::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+button::before {
+  background-image: linear-gradient(90deg, #708fff 0%, #b0e7fc 60%, #37c7ff 100%);
+  z-index: -1;
+  transition: opacity 240ms linear;
+  opacity: 0;
+}
+
+button::after {
+  background-image: url("data:image/svg+xml,%3Csvg width='165' height='155' viewBox='0 0 165 155' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M165 -6.10352e-05H65C65 -6.10352e-05 37.1135 5.19052 20 33C4 59 21 68.5 38 98.5C51.6 122.5 17.3333 147.333 0 155H100C100 155 126 143 137.5 123.5C155.875 92.3417 104.5 70 115.5 42.5C126.5 15 165 -6.10352e-05 165 -6.10352e-05Z' fill='white'/%3E%3C/svg%3E");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: -25%;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:hover::before {
+  opacity: 1;
+}
+
+button:hover::after {
+  -webkit-animation-duration: 400ms;
+          animation-duration: 400ms;
+  -webkit-animation-name: shine;
+          animation-name: shine;
+}
+
+@-webkit-keyframes shine {
+  from {
+    background-position: -25%;
+  }
+  to {
+    background-position: 135%;
+  }
+}
+
+@keyframes shine {
+  from {
+    background-position: -25%;
+  }
+  to {
+    background-position: 135%;
+  }
+}
+/* Not related to button itself, just for layout */
+body {
+  height: 100vh;
+  display: flex;
+  background-color: black;
+}
+
+button {
+  margin: auto;
+}
