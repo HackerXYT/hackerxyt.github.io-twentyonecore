@@ -5,7 +5,7 @@ const BtnLog = document.getElementById("login-form-submit");
 const BtnLogger = document.getElementById("signup-form-submit");
 const formlog = document.getElementById("login-form");
 const formlogger = document.getElementById("signup-form");
-const serverredirect = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr="
+const serverredirect = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr="
 document.getElementById("container").style.visibility = "hidden";
 document.getElementById("message").style.visibility = "visible";
 
@@ -32,7 +32,7 @@ readTextFile("https://twentyonecore.evoxs.xyz/login/read.json", function(get) {
 	const check = result.tokenone
 	if (token === check) {
 		window.localStorage.setItem("User", user);
-		window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + user + "&pfp=" + pfp
+		window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + user + "&pfp=" + pfp
 	} else {
 		console.log("Auto login: false")
 		document.getElementById("container").style.visibility = "visible";

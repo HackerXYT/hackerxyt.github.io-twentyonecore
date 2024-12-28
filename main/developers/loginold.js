@@ -10,7 +10,7 @@ BtnLog.addEventListener("click", (e) => {
 var value = password;
 	var result = MD5(value);
 	readTextFile("https://cdn.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/users.json", function(text) {
-		readTextFile("https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/new.json", function(newcreds) {
+		readTextFile("https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/new.json", function(newcreds) {
 			document.getElementById("msg").innerHTML = "Contacting Server.."
 			var user = JSON.parse(text);
 			if (username === user.search.users.u1) {

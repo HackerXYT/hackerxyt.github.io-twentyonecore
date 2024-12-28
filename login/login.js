@@ -108,9 +108,9 @@ BtnLog.addEventListener("click", (e) => {
 							window.localStorage.setItem("loggedin", username);
 							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
 						} else if (product === "switch") {
 							window.location.href = "http://192.168.1.56/change.html?user=" + username
 						} else {
@@ -139,9 +139,9 @@ BtnLog.addEventListener("click", (e) => {
 							window.localStorage.setItem("loggedin", username);
 							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
 						} else {
 							window.location.href = "/"
 							window.localStorage.setItem("User", username);
@@ -168,9 +168,9 @@ BtnLog.addEventListener("click", (e) => {
 							window.localStorage.setItem("loggedin", username);
 							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
 						} else {
 							window.location.href = "/"
 							window.localStorage.setItem("User", username);
@@ -197,9 +197,9 @@ BtnLog.addEventListener("click", (e) => {
 							window.localStorage.setItem("loggedin", username);
 							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
 						} else {
 							window.location.href = "/"
 							window.localStorage.setItem("User", username);
@@ -226,9 +226,9 @@ BtnLog.addEventListener("click", (e) => {
 							window.localStorage.setItem("loggedin", username);
 							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
 						} else {
 							window.location.href = "/"
 							window.localStorage.setItem("User", username);
@@ -255,9 +255,9 @@ BtnLog.addEventListener("click", (e) => {
 							window.localStorage.setItem("loggedin", username);
 							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
 						} else {
 							window.location.href = "/"
 							window.localStorage.setItem("User", username);
@@ -284,9 +284,9 @@ BtnLog.addEventListener("click", (e) => {
 							window.localStorage.setItem("loggedin", username);
 							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
-							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/mrg-hackerx-xyz/main/developers/?loggedin=" + username
 						} else {
 							window.location.href = "/"
 							window.localStorage.setItem("User", username);
