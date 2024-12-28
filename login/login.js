@@ -101,12 +101,12 @@ BtnLog.addEventListener("click", (e) => {
 								window.location.href = "https://twentyonecore.evoxs.xyz/newlogin/?user=" + username + "&token=" + identity + "&pfp=" + "https://twentyonecore.evoxs.xyz/database/user.jpg"
 							})
 						} else if (product === "lantwentyone") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username
 						} else if (product === "lanapp") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?username=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?username=" + username
 						} else if (twentyone === "newclient") {
 							window.localStorage.setItem("loggedin", username);
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username + "&ip=" + ip
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
 							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
@@ -132,12 +132,12 @@ BtnLog.addEventListener("click", (e) => {
 								window.location.href = "https://twentyonecore.evoxs.xyz/newlogin/?user=" + username + "&token=" + identity + "&pfp=" + "https://twentyonecore.evoxs.xyz/database/user.jpg"
 							})
 						} else if (product === "lantwentyone") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username
 						} else if (product === "lanapp") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?username=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?username=" + username
 						} else if (twentyone === "newclient") {
 							window.localStorage.setItem("loggedin", username);
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username + "&ip=" + ip
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
 							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
@@ -161,12 +161,12 @@ BtnLog.addEventListener("click", (e) => {
 								window.location.href = "https://twentyonecore.evoxs.xyz/newlogin/?user=" + username + "&token=" + identity + "&pfp=" + "https://twentyonecore.evoxs.xyz/database/user.jpg"
 							})
 						} else if (product === "lantwentyone") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username
 						} else if (product === "lanapp") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?username=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?username=" + username
 						} else if (twentyone === "newclient") {
 							window.localStorage.setItem("loggedin", username);
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username + "&ip=" + ip
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
 							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
@@ -190,12 +190,12 @@ BtnLog.addEventListener("click", (e) => {
 								window.location.href = "https://twentyonecore.evoxs.xyz/newlogin/?user=" + username + "&token=" + identity + "&pfp=" + "https://twentyonecore.evoxs.xyz/database/user.jpg"
 							})
 						} else if (product === "lantwentyone") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username
 						} else if (product === "lanapp") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?username=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?username=" + username
 						} else if (twentyone === "newclient") {
 							window.localStorage.setItem("loggedin", username);
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username + "&ip=" + ip
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
 							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
@@ -219,12 +219,12 @@ BtnLog.addEventListener("click", (e) => {
 								window.location.href = "https://twentyonecore.evoxs.xyz/newlogin/?user=" + username + "&token=" + identity + "&pfp=" + "https://twentyonecore.evoxs.xyz/database/user.jpg"
 							})
 						} else if (product === "lantwentyone") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username
 						} else if (product === "lanapp") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?username=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?username=" + username
 						} else if (twentyone === "newclient") {
 							window.localStorage.setItem("loggedin", username);
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username + "&ip=" + ip
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
 							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
@@ -248,12 +248,12 @@ BtnLog.addEventListener("click", (e) => {
 								window.location.href = "https://twentyonecore.evoxs.xyz/newlogin/?user=" + username + "&token=" + identity + "&pfp=" + "https://twentyonecore.evoxs.xyz/database/user.jpg"
 							})
 						} else if (product === "lantwentyone") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username
 						} else if (product === "lanapp") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?username=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?username=" + username
 						} else if (twentyone === "newclient") {
 							window.localStorage.setItem("loggedin", username);
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username + "&ip=" + ip
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
 							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
@@ -277,12 +277,12 @@ BtnLog.addEventListener("click", (e) => {
 								window.location.href = "https://twentyonecore.evoxs.xyz/newlogin/?user=" + username + "&token=" + identity + "&pfp=" + "https://twentyonecore.evoxs.xyz/database/user.jpg"
 							})
 						} else if (product === "lantwentyone") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username
 						} else if (product === "lanapp") {
-							window.location.href = "https://language.twentyonecore.com/language/register.html?username=" + username
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?username=" + username
 						} else if (twentyone === "newclient") {
 							window.localStorage.setItem("loggedin", username);
-							window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + username + "&ip=" + ip
+							window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + username + "&ip=" + ip
 						} else if (product === "xsite") {
 							window.location.href = "https://www.twentyonecore.evoxs.xyz/mrg-hackerx-xyz/21coreprocess.html?usr=" + username
 						} else if (dev === "true") {
@@ -343,5 +343,5 @@ var exists = localStorage.getItem("loggedin")
 if (exists === null) {
 	//ok
 } else {
-	window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + exists + "&ip=" + ip
+	window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + exists + "&ip=" + ip
 }

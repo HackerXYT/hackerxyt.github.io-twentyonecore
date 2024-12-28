@@ -81,7 +81,7 @@ var onComplete = function() {
 								console.log("City Correct")
 								console.log("ALL CORRECT!")
 								window.location.href = "loading.html"
-								//window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + user + "&ip=" + "blocked"
+								//window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + user + "&ip=" + "blocked"
 							} else {
 								console.log("City incorrect")
 								window.location.href = "./incorrect.html"
@@ -108,7 +108,7 @@ var onComplete = function() {
 							if (questions[3].answer === "Athens" || questions[3].answer === "athens" || questions[3].answer === "Piraeus" || questions[3].answer === "piraeus") {
 								console.log("City Correct")
 								console.log("ALL CORRECT!")
-								window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + user + "&ip=" + "blocked"
+								window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + user + "&ip=" + "blocked"
 							} else {
 								console.log("City incorrect")
 								window.location.href = "./incorrect.html"
@@ -135,7 +135,7 @@ var onComplete = function() {
 							if (questions[3].answer === "Athens" || questions[3].answer === "athens" || questions[3].answer === "Piraeus" || questions[3].answer === "piraeus") {
 								console.log("City Correct")
 								console.log("ALL CORRECT!")
-								window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + user + "&ip=" + "blocked"
+								window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + user + "&ip=" + "blocked"
 							} else {
 								console.log("City incorrect")
 								window.location.href = "./incorrect.html"
@@ -162,7 +162,7 @@ var onComplete = function() {
 							if (questions[3].answer === "Athens" || questions[3].answer === "athens" || questions[3].answer === "Glyfada" || questions[3].answer === "glyfada") {
 								console.log("City Correct")
 								console.log("ALL CORRECT!")
-								window.location.href = "https://language.twentyonecore.com/language/register.html?identity=" + user + "&ip=" + "blocked"
+								window.location.href = "https://twentyonecore.evoxs.xyz/NAL21/language/register.html?identity=" + user + "&ip=" + "blocked"
 							} else {
 								console.log("City incorrect")
 								window.location.href = "./incorrect.html"
