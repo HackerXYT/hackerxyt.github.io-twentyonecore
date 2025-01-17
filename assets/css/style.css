@@ -1201,9 +1201,17 @@ blockquote h6 {
 }
 
 .btn-primary {
+    display: inline-flex;
     background-color: #222222;
     border-color: #222222;
     color: #dedcdc;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px; */
+    width: auto;
+    margin-top: 10px;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
